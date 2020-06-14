@@ -74,7 +74,7 @@ class Email:
         )
 
 
-class EmailFactory(ThreadLocalNamedSingletonFactory["Email"]):
+class EmailFactory(ThreadLocalNamedSingletonFactory[Email]):
     """
     Factory for Email instances
     """
