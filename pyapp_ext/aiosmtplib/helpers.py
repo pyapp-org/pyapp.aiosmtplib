@@ -30,7 +30,7 @@ class Email:
         Send message
         """
         async with self._client:
-            return self._client.send_message(
+            return await self._client.send_message(
                 message, sender or self.sender, recipients
             )
 
