@@ -4,7 +4,7 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry]
 name = "pyapp-aiosmtplib"
-version = "0.1.0b1"
+version = "0.1.0b2"
 description = "AsyncIO SMTPlib Extension for pyApp"
 authors = ["Tim Savage <tim@savage.company>"]
 license = "BSD-3-Clause"
