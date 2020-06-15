@@ -1,3 +1,6 @@
+"""
+Email helper for handling building of messages.
+"""
 from email.message import EmailMessage, Message
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -79,9 +82,7 @@ class EmailFactory(ThreadLocalNamedSingletonFactory[Email]):
     Factory for Email instances
     """
 
-    optional_keys = (
-        "sender",
-    )
+    optional_keys = ("sender",)
 
     def create(self, name: str = None) -> Email:
         """
