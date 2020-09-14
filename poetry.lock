@@ -157,8 +157,8 @@ category = "main"
 description = "A Python application framework - Let us handle the boring stuff!"
 name = "pyapp"
 optional = false
-python-versions = ">=3.6"
-version = "4.3.0"
+python-versions = ">=3.6,<4.0"
+version = "4.4.0"
 
 [package.dependencies]
 argcomplete = "*"
@@ -166,7 +166,6 @@ colorama = "*"
 yarl = "*"
 
 [package.extras]
-dev = ["nox", "docutils (0.15.2)"]
 yaml = ["pyyaml"]
 
 [[package]]
@@ -275,7 +274,8 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "6e771af1083a4ae44d6b70f515301ea42aab065d73e62028a44653fa41c26bfb"
+content-hash = "2e2c40caa487638a9ed3081e4c642e5f8d1652b8005cede90fb52d172c85ee2e"
+lock-version = "1.0"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -379,8 +379,8 @@ py = [
     {file = "py-1.9.0.tar.gz", hash = "sha256:9ca6883ce56b4e8da7e79ac18787889fa5206c79dcc67fb065376cd2fe03f342"},
 ]
 pyapp = [
-    {file = "pyApp-4.3.0-py3-none-any.whl", hash = "sha256:0a487bfd33327ea41803571854474f5120bc8c1d8e4e4b0a26046f7439918f33"},
-    {file = "pyApp-4.3.0.tar.gz", hash = "sha256:5d251ed35e5b9ee860aa0184d13e50bfe1120bffcae55b709c064bf19417eb58"},
+    {file = "pyapp-4.4.0-py3-none-any.whl", hash = "sha256:1c5163956ef6d278fd134af5dd0e2130624d746307413e04f6b71387b4dbf512"},
+    {file = "pyapp-4.4.0.tar.gz", hash = "sha256:25df6672158c27e9893f823412812e2f9b5359899b4b0f1d8febffeb5c92986e"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
